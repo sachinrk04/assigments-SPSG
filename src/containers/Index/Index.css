@@ -1,0 +1,29 @@
+.Index-Navbar {
+    /* border: 1px solid red; */
+    padding: 8px;
+    background: grey;
+}
+
+.Index-Bottom {
+    background: grey;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.Index-Bottom p {
+    width: 100px;
+}
+.Index-Loadmore {
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+}
+
+.Index-Loadmore:hover {
+    background: black;
+    color: aliceblue;
+}

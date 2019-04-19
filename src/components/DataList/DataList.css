@@ -1,0 +1,22 @@
+.DataList {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    border: 1px solid #dddddd;
+    text-align: left;
+    background: lightgrey;
+  }
+  
+tbody {
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    padding: 15px;
+}
+td {
+    padding: 10px;
+}

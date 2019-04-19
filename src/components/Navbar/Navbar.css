@@ -1,0 +1,49 @@
+.Navbar-H {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navbar-Input {
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px;
+}
+
+.Navbar-Submit {
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+
+.Navbar-List {
+    /* border: 1px solid red; */
+    z-index: 999;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid grey;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+ul::before {
+    content: "";
+}
+
+li {
+    padding: 5px 5px;
+    cursor: pointer;
+    background: white;
+}
+
+li:hover {
+    border: 1px solid rgba(128, 128, 128, 1);
+    background-color: lightgrey;
+}
